@@ -1,6 +1,7 @@
 # Calender Appointment Application
 This project is built using **Next.js** and is designed to fulfill a **Code Challenge**. The goal of the application is to create a simple interview scheduling system where users can book appointments. The project includes features such as a calendar interface, time slot selectors, forms for scheduling appointments, and custom components for better user interaction.
 
+
 ### Key Architectural Decisions:
 
 - **Next.js:** Selected for its ability to handle server-side rendering, improving both performance and SEO, which is crucial for a fan-oriented website with public visibility.
@@ -58,7 +59,7 @@ src/
 ### Install dependencies:
 
 ```
-npm install --legacy-peer-deps
+npm install
 
 This will install all the required packages specified in `package.json`.
 ```
@@ -70,13 +71,13 @@ npm run dev
 This command will start the application locally for development purposes.
 
 ```
-```
 
-## Lean and Scalable Development
-
-The project was developed with a focus on lean and scalable practices. By using modern frameworks and reusable components, the codebase remains easy to maintain and extend. Server-side rendering (SSR) provided by Next.js helps keep the application fast, while static typing with TypeScript ensures a low rate of errors, contributing to both performance and quality.
-```
 ## Preview Web and Mobile
 
 ![Preview of application](preview.gif)
 ![Preview of application mobile](preview_mobile.gif)
+
+## Lean and Scalable Development
+
+The project was developed with a focus on lean and scalable practices. By using modern frameworks and reusable components, the codebase remains easy to maintain and extend. Server-side rendering (SSR) provided by Next.js helps keep the application fast, while static typing with TypeScript ensures a low rate of errors, contributing to both performance and quality.
+
