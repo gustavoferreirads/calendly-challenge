@@ -1,15 +1,15 @@
 import React, { ReactNode } from 'react';
 
 type ContainerProps = {
-  className?: string;
-  children: ReactNode;
+    className?: string;
+    children: ReactNode;
 };
 
-const Container: React.FC<ContainerProps> = ({ className, children }) => {
-  return (
-    <main className={`flex justify-center items-center px-4 ${className}`}>
-      <div
-        className={`
+const Container = ({ className, children }: ContainerProps) => {
+    return (
+        <main className={`flex justify-center items-center px-4 ${className}`}>
+            <div
+                className={`
           bg-white
           box-border
           text-[rgb(10,37,64)]
@@ -37,11 +37,11 @@ const Container: React.FC<ContainerProps> = ({ className, children }) => {
           lg:border lg:border-[rgba(26,26,26,0.1)]
           lg:rounded-[8px]
         `}
-      >
-        {children}
-      </div>
-    </main>
-  );
+            >
+                {children}
+            </div>
+        </main>
+    );
 };
 
 export default Container;

@@ -1,6 +1,6 @@
 import { strings } from "@/const/strings";
-import { useAppointments } from "@/features/appointments/contexts/AppointmentContext";
 import { Schedule } from "@/features/appointments/types/schedule";
+import { useAppointments } from "@/features/appointments/contexts/AppointmentContext";
 
 const FEEDBACK_TIMEOUT = 3000;
 
